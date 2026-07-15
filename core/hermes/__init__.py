@@ -1,4 +1,5 @@
 """
-Jarvis module placeholder.
-Implementation begins in future commits.
+Jarvis Hermes Workflow Engine
+
+Task routing, workflow execution, and automation.
 """

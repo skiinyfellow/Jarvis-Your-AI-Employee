@@ -1,5 +1,5 @@
 """
 Jarvis Telegram Package
 
-Contains Telegram bot interface and commands.
+Telegram bot interface for user interaction.
 """
