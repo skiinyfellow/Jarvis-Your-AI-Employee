@@ -60,13 +60,15 @@ Jarvis supports:
 
 Current milestone:
 
-Commit 001 — Repository Foundation
+✅ Commit 001 — Repository Foundation
+✅ Commit 001.1 — Foundation Fixes
+✅ Commit 002 — Ollama Local LLM + Memory Engine
+🚧 Commit 002.2 — Validation & Error Handling
 
 Upcoming:
-- Commit 002 — Local LLM + Memory Engine
-- Commit 003 — Hermes Workflow Engine
-- Commit 004 — Document Intelligence
-- Commit 005 — Business Database Engine
+- Commit 003 — Hermes Workflow Engine + Telegram Intake
+- Commit 004 — Document Intelligence (Haystack RAG)
+- Commit 005 — Business Database Engine (PostgreSQL)
 - Commit 006 — Industry Modules
 - Commit 007 — Licensing System
 - Commit 008 — One Click Installer
