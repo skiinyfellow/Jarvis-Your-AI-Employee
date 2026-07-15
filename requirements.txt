@@ -1,29 +1,11 @@
-# Core Dependencies
-python-telegram-bot==20.3
-fastapi==0.104.1
-uvicorn==0.24.0
-sqlalchemy==2.0.23
-psycopg2-binary==2.9.9
-
-# AI & ML
-ollama==0.1.3
-haystack-ai==0.1.0
-langchain==0.1.0
-
-# Vector Database
-qdrant-client==2.7.0
-
-# Caching & Storage
-redis==5.0.1
-
-# Utilities
-python-dotenv==1.0.0
-requests==2.31.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
-
-# Development
-pytest==7.4.3
-black==23.11.0
-pylint==3.0.2
-mypy==1.7.1
+python-dotenv
+requests
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+qdrant-client
+haystack-ai
+python-telegram-bot
+pydantic

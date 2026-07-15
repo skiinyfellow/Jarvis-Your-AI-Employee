@@ -1,54 +1,76 @@
-# Jarvis: Your AI Employee
+# Jarvis — Your AI Employee
 
-An enterprise-scale AI employee platform designed to automate business operations, manage workflows, and provide intelligent decision support.
+Jarvis is a modular AI employee platform designed to automate business operations through:
+- Local and cloud AI models
+- Voice interaction
+- Business knowledge management
+- Document intelligence
+- Workflow automation
+- Memory systems
+- Industry-specific modules
 
-## Features
+## Vision
 
-- **OpenJarvis Core**: Central AI orchestration engine
-- **Hermes Workflows**: Task automation and workflow management
-- **Haystack RAG**: Retrieval-Augmented Generation for document intelligence
-- **Memory System**: Persistent context and historical tracking
-- **Telegram Integration**: Remote access and control
-- **Obsidian Integration**: Knowledge base management
-- **SQLite/PostgreSQL**: Multi-backend data storage
-- **Licensing System**: Multi-user access control
-- **Owner Dashboard**: Real-time monitoring and analytics
+Jarvis acts as a digital employee capable of understanding business context, retrieving information, executing workflows, and assisting owners and teams.
 
-## Quick Start
+## Core Architecture
 
-### Prerequisites
-- Docker & Docker Compose
-- Python 3.10+
-- 4GB RAM minimum
-- 10GB free disk space
+### AI Layer
+- Ollama local LLM support
+- OpenAI-compatible model support
+- Agent orchestration
+- Long-term memory
 
-### Installation
+### Knowledge Layer
+- Haystack RAG pipeline
+- Qdrant vector database
+- Business document indexing
 
-**Windows:**
-```powershell
-.\install\install_windows.ps1
-```
+### Automation Layer
+- Hermes workflows
+- Telegram interface
+- Business modules
 
-**Linux:**
-```bash
-bash install/install_linux.sh
-```
+### Storage Layer
+- PostgreSQL
+- Redis
+- Local knowledge vault
 
-**macOS:**
-```bash
-bash install/install_mac.sh
-```
+## Initial Business Module
 
-## Documentation
+### Coffee Shop Module
 
-- [Installation Guide](docs/INSTALLATION.md)
-- [Owner Guide](docs/OWNER_GUIDE.md)
-- [Architecture](docs/ARCHITECTURE.md)
+Capabilities planned:
+- Inventory monitoring
+- Supplier tracking
+- Employee assistance
+- Daily reports
+- Customer insights
+- Operations dashboard
+
+## Deployment
+
+Jarvis supports:
+- Windows installation
+- Linux installation
+- Mac installation
+- Docker deployment
+
+## Project Status
+
+Current milestone:
+
+Commit 001 — Repository Foundation
+
+Upcoming:
+- Commit 002 — Local LLM + Memory Engine
+- Commit 003 — Hermes Workflow Engine
+- Commit 004 — Document Intelligence
+- Commit 005 — Business Database Engine
+- Commit 006 — Industry Modules
+- Commit 007 — Licensing System
+- Commit 008 — One Click Installer
 
 ## License
 
-See LICENSE file for details.
-
-## Support
-
-For issues and questions, please open a GitHub issue.
+See LICENSE.
