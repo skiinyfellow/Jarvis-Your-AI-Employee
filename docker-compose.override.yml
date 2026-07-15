@@ -1,0 +1,13 @@
+# Local development overrides
+# This file is not committed and allows local customization
+
+version: '3.8'
+
+services:
+  openjarvis:
+    environment:
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+    ports:
+      - "8000:8000"
+      - "5678:5678"  # debugpy
