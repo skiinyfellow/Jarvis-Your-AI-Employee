@@ -22,12 +22,12 @@ Jarvis acts as a digital employee capable of understanding business context, ret
 - Long-term memory
 
 ### Knowledge Layer
-- Haystack RAG pipeline
+- RAG pipeline
 - Qdrant vector database
 - Business document indexing
 
 ### Automation Layer
-- Hermes workflows
+- workflows
 - Telegram interface
 - Business modules
 
@@ -66,8 +66,8 @@ Current milestone:
 🚧 Commit 002.2 — Validation & Error Handling
 
 Upcoming:
-- Commit 003 — Hermes Workflow Engine + Telegram Intake
-- Commit 004 — Document Intelligence (Haystack RAG)
+- Commit 003 — Workflow Engine + Telegram Intake
+- Commit 004 — Document Intelligence (RAG)
 - Commit 005 — Business Database Engine (PostgreSQL)
 - Commit 006 — Industry Modules
 - Commit 007 — Licensing System
